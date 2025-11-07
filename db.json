@@ -1,0 +1,210 @@
+{
+  "dashboard": {
+    "current_status": {
+      "energy_level": 0.045,
+      "level_text": "MÉDIA",
+      "level_color": "#FFFFD54F",
+      "timestamp": "2024-01-15T14:30:45.123Z",
+      "value_wh": 45.0,
+      "trend": "rising"
+    },
+    "live_stream": [
+      {
+        "electrical_energy": 0.042,
+        "value_wh": 42.0,
+        "timestamp": "2024-01-15T14:30:44.123Z",
+        "quality": 0.98
+      },
+      {
+        "electrical_energy": 0.038,
+        "value_wh": 38.0,
+        "timestamp": "2024-01-15T14:30:43.123Z",
+        "quality": 0.95
+      },
+      {
+        "electrical_energy": 0.051,
+        "value_wh": 51.0,
+        "timestamp": "2024-01-15T14:30:42.123Z",
+        "quality": 0.97
+      }
+    ],
+    "metrics": {
+      "total_energy_kwh": 12.456,
+      "total_samples": 156,
+      "average_energy_wh": 45.2,
+      "last_reading_wh": 45.0
+    }
+  },
+  "history": [
+    {
+      "id": 1,
+      "date": "2024-01-15",
+      "total_energy": 12.45,
+      "peak_power": 215.6,
+      "efficiency": 0.82,
+      "status": "high"
+    },
+    {
+      "id": 2,
+      "date": "2024-01-14",
+      "total_energy": 10.23,
+      "peak_power": 198.3,
+      "efficiency": 0.78,
+      "status": "medium"
+    },
+    {
+      "id": 3,
+      "date": "2024-01-13",
+      "total_energy": 8.67,
+      "peak_power": 176.8,
+      "efficiency": 0.75,
+      "status": "medium"
+    },
+    {
+      "id": 4,
+      "date": "2024-01-12",
+      "total_energy": 15.89,
+      "peak_power": 245.2,
+      "efficiency": 0.85,
+      "status": "high"
+    },
+    {
+      "id": 5,
+      "date": "2024-01-11",
+      "total_energy": 6.34,
+      "peak_power": 154.7,
+      "efficiency": 0.68,
+      "status": "low"
+    }
+  ],
+  "reports": {
+    "daily": {
+      "statistics": [
+        {
+          "title": "Energia Total",
+          "value": "24.8 kWh",
+          "icon": "energy_savings_leaf",
+          "color": "#FF00E6FF",
+          "subtitle": "+5% vs ontem"
+        },
+        {
+          "title": "Eficiência Média",
+          "value": "82.1%",
+          "icon": "auto_graph",
+          "color": "#FFFFD54F",
+          "subtitle": "+1.5% vs ontem"
+        }
+      ],
+      "trend_data": [2.1, 2.3, 2.8, 3.2, 2.9, 3.5, 2.7, 3.1],
+      "insights": [
+        {
+          "title": "Pico Matinal",
+          "description": "Maior produção entre 10:00-12:00",
+          "icon": "arrow_upward",
+          "color": "#FF00E6FF"
+        }
+      ]
+    },
+    "weekly": {
+      "statistics": [
+        {
+          "title": "Energia Total",
+          "value": "156.8 kWh",
+          "icon": "energy_savings_leaf",
+          "color": "#FF00E6FF",
+          "subtitle": "+12% vs semana anterior"
+        },
+        {
+          "title": "Eficiência Média",
+          "value": "78.4%",
+          "icon": "auto_graph",
+          "color": "#FFFFD54F",
+          "subtitle": "+3.2% vs semana anterior"
+        },
+        {
+          "title": "Pico de Potência",
+          "value": "245.6 W",
+          "icon": "speed",
+          "color": "#FF00E6FF",
+          "subtitle": "Novo recorde!"
+        },
+        {
+          "title": "Tempo de Operação",
+          "value": "142h 30m",
+          "icon": "timer",
+          "color": "#FFFFD54F",
+          "subtitle": "94% disponibilidade"
+        }
+      ],
+      "trend_data": [12.5, 15.2, 14.8, 16.7, 18.3, 15.9, 17.2],
+      "insights": [
+        {
+          "title": "Melhor Performance",
+          "description": "Sexta-feira entre 14:00-16:00",
+          "icon": "arrow_upward",
+          "color": "#FF00E6FF"
+        },
+        {
+          "title": "Oportunidade de Melhoria",
+          "description": "Aumentar eficiência nos fins de semana",
+          "icon": "trending_up",
+          "color": "#FFFFD54F"
+        }
+      ]
+    },
+    "monthly": {
+      "statistics": [
+        {
+          "title": "Energia Total",
+          "value": "645.2 kWh",
+          "icon": "energy_savings_leaf",
+          "color": "#FF00E6FF",
+          "subtitle": "+8% vs mês anterior"
+        },
+        {
+          "title": "Eficiência Média",
+          "value": "76.8%",
+          "icon": "auto_graph",
+          "color": "#FFFFD54F",
+          "subtitle": "+2.1% vs mês anterior"
+        }
+      ],
+      "trend_data": [210, 225, 218, 232, 245, 238, 251, 265, 258, 272, 285, 278],
+      "insights": [
+        {
+          "title": "Crescimento Consistente",
+          "description": "Aumento médio de 8% na produção",
+          "icon": "arrow_upward",
+          "color": "#FF00E6FF"
+        }
+      ]
+    },
+    "yearly": {
+      "statistics": [
+        {
+          "title": "Energia Total",
+          "value": "7.8 MWh",
+          "icon": "energy_savings_leaf",
+          "color": "#FF00E6FF",
+          "subtitle": "+15% vs ano anterior"
+        },
+        {
+          "title": "Eficiência Média",
+          "value": "74.2%",
+          "icon": "auto_graph",
+          "color": "#FFFFD54F",
+          "subtitle": "+4.5% vs ano anterior"
+        }
+      ],
+      "trend_data": [420, 458, 512, 589, 645, 712, 785, 845, 912, 985, 1050, 1120],
+      "insights": [
+        {
+          "title": "Crescimento Exponencial",
+          "description": "Aumento de 15% na produção anual",
+          "icon": "arrow_upward",
+          "color": "#FF00E6FF"
+        }
+      ]
+    }
+  }
+}
